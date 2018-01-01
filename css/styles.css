@@ -1,0 +1,103 @@
+@charset "utf-8";
+/*CRUXATA*/
+body{background:#000 url(../img/general/background.jpg) no-repeat 50% 0;color:#f1f1f1;font:100 12px Verdana,Arial,SunSans-Regular,Sans-Serif;height:100%;text-align:center}
+.mainContainer{position:relative;z-index:1}
+#header ul#resources li.wood,#header ul#resources li.stone,#header ul#resources li.gold,#header ul#resources li.diamonds,#header ul#resources li.soldiers,#header ul#resources li.messages,#header ul#resources li.notices, #imgWood, #imgStone, #imgGold{background:url(../img/resources_sprite.png)}
+#pageContainer{background:transparent url(../img/general/pattern.png) repeat-x 0px 0px}
+#page{width:1000px;margin:0px auto;text-align:left;position:relative}
+#page #flag{background:transparent url(../img/menu/menu_flag_top.png);background-repeat:no-repeat;position:absolute;width:173px;height:121px;top:21px;left:0px}
+#page #logo{background:transparent url(../img/menu/menu_logo.png);background-repeat:no-repeat;position:absolute;width:300px;height:100px;top:21px;left:-75px}
+#header .textlabel{height:1px;left:-9999px;overflow:hidden;position:absolute;width:1px}
+#header li .value{color:#fff;font:normal 9px/11px Verdana, Arial, Helvetica, sans-serif;text-align:center;position:absolute;width:65px;top:39px;left:-10px}
+#header li.wood .value{top:39px;left:-9px}
+#header li.stone .value{top:39px;left:-9px}
+#header ul#resources li{position:absolute;height:32px;top:39px;width:48px}
+#header ul#resources li.wood{left:242px;background-position:0px 0px}
+#header ul#resources li.stone{left:344px;background-position:-48px 0px}
+#header ul#resources li.gold{left:446px;background-position:-96px 0px}
+#header ul#resources li.diamonds{left:549px;background-position:-144px 0px}
+#header ul#resources li.soldiers{left:651px;background-position:-192px 0px}
+#header ul#resources li.messages{left:753px;background-position:-240px 0px}
+#header ul#resources li.notices{left:853px;top:44px;width:32px;background-position:-288px 0px}
+.header{height:142px;margin:0px auto;position:relative}
+div#clockClass{color:#d43635;font-size:11px;left:-54px;position:absolute;overflow:visible;text-align:center;top:6px;width:290px}
+#optionsBar{font-size:11px;width:700px;margin:0px auto;padding-top:6px}
+#optionsBar a{color:#d43635;margin:0 0 0 20px}
+#optionsBar a:link,#optionsBar a:visited{text-decoration:none}
+#optionsBar a:hover {text-decoration:underline;color:#d43635}
+#optionsBar a:active {text-decoration:none}
+#optionsBar ul{text-align:center}
+#optionsBar ul li{display:inline;list-style-type:none;list-style-position:outside}
+ul#resources{list-style-type:none}
+.value font{font-size:9px}
+#menu{background:transparent url(../img/menu/menu_flag_bottom.png);background-repeat:no-repeat;float:left;overflow:hidden;width:183px;/*height:384px;*/height:400px}
+#menu #links{width:138px;left:25px;position:relative}
+#menu #links li{display:block;list-style-type:none;list-style-position:outside}
+#menu #links a:link,#menu #links a:visited,#menu #links a:hover,#menu #links a:active{background:transparent url(../img/menu/menu_link.png);background-repeat:no-repeat;color:#e5e5e5;display:block;font:bold 11px/25px verdana, arial, helvetica, sans-serif;text-decoration:none}
+#menu #links a:hover{color:#fff;background:transparent url(../img/menu/menu_link_hover.png);background-repeat:no-repeat}
+#menu #links a.menubutton:link,#menu #links a.menubutton:visited,#menu #links a.menubutton:hover,#menu #links a.menubutton:active{height:29px;text-align:center;line-height:20px;padding:0 0 0 0;width:138px}
+#sectionContainer{background:transparent url(../img/general/container.png);width:710px;height:450px;overflow:visible;position:relative;margin:0;padding:0;float:left}
+#section{color:#e5e5e5;left:15px;top:15px;width:673px;height:410px;overflow-x:auto;overflow-y:visible;position:relative;margin:0;padding:0;float:left};
+.textRight{text-align:right}
+.textLeft{text-align:left}
+.fleft{float:left}
+.fright{float:right}
+a:link,a:visited,a:hover,a:active{color:#fff}
+#footerContainer{background:transparent url(../img/general/footer-pattern.gif) repeat-x 0 0;color:#fff;font: normal 10px Verdana,Arial,Helvetica,sans-serif;height:19px;line-height:19px;text-align:center;position:fixed;bottom:0;z-index:2;width:100%;clear:both}
+#footerContainer a,#footerContainer a:link{color:#fff;margin:0px 12px;text-decoration:none}
+#footerContainer a:hover{color:#fff;text-decoration:underline}
+#footerContainer .content{margin:0 auto;padding-top:0;width:850px;height:19px}
+#footerContainer .fleft{max-width:435px}
+#footerContainer a.tips{margin-right:10px}
+select, select option{font-size:11px;color:#848484;background-color:#0d1014}
+input, submit, button{font-size:11px;color:#848484;background-color:#0d1014;border:1px solid #848484}
+#cursorMessageDiv{position:absolute;z-index:99999;border:solid 1px #000;background:#e5e5e5;padding:2px;margin:0px;display:none;color:#000}
+#cursorMessageDiv td#header{border:1px solid #000;background-color:#990f1f;text-align:left}
+#cursorMessageDiv td{text-align:right}
+#cursorMessageDiv td#textLeft{text-align:left}
+.woodColor{color:brown}
+.stoneColor{color:#999999}
+.goldColor{color:#808000}
+.plusColor{color:#99CC00}
+.minusColor{color:#d43635}
+.italic{font-style:italic}
+.bold{font-weight:bold}
+#imgWood{width:48px;height:32px;background-position:0px 0px}
+#imgStone{width:48px;height:32px;background-position:-48px 0px}
+#imgGold{width:48px;height:32px;background-position:-96px 0px}
+#workshop input[type="submit"],#armory input[type="submit"],#academy input[type="submit"],#buildings input[type="submit"],#search input[type="submit"],#market input[type="submit"],#market button,#tutorial input[type="submit"],#tutorial button{background-color:#990f1f;color:#FFFFFF;height:auto;width:auto;font-weight:bold;padding:10px;text-decoration:none;border:1px solid #000}
+#workshop input[type="submit"]:hover,#armory input[type="submit"]:hover,#academy input[type="submit"]:hover,#buildings input[type="submit"]:hover,#search input[type="submit"]:hover,#market input[type="submit"]:hover,#market button:hover,#tutorial input[type="submit"]:hover,#tutorial button:hover{background-color:#9b3f4a;border-color:#fff}
+#workshop,#attack,#armory,#academy,#buildings,#message_box,#messages,#field,#armies,#search,#empire,#productivity,#options,#statistics,#market,#tutorial,#friends{text-align:center;font-family:arial}
+#workshop #title,#attack #title,#armory #title,#academy #title,#buildings #title,#message_box #title,#messages #title,#field #title,#armies #title,#search #title,#empire #title,#productivity #title,#options #title,#statistics #title,#market #title,#tutorial #title,#friends #title{color:#990f1f;text-decoration:none;font-size:28px;padding-top:5px;font-weight:bold}
+#workshop #infoContainer td.right,#attack #infoContainer td.right,#armory #infoContainer td.right,#academy #infoContainer td.right,#buildings #infoContainer td.right,#messages #infoContainer td.right,#field #infoContainer td.right,#productivity #infoContainer td,#options #infoContainer td.right{text-align:right}
+#workshop #infoContainer td.left,#attack #infoContainer td.left,#attack #infoContainer td#header,#armory #infoContainer td.left,#academy #infoContainer td.left,#buildings #infoContainer td.left,#messages #infoContainer td.left,#field #infoContainer td.left,#empire #building,#empire #watchtowerAlert,#options #infoContainer td.left,#market #infoContainer td.left{text-align:left}
+#workshop #infoContainer td input,#armory #infoContainer td.center,#academy #infoContainer td.center,#academy #infoContainer td input,#buildings #infoContainer td.center,#workshop #infoContainer td.center{text-align:center}
+#armory #infoContainer td.justify,#academy #infoContainer td.justify,#buildings #infoContainer td.justify,#workshop #infoContainer td.justify{text-align:justify}
+#workshop #infoContainer,#attack #infoContainer,#armory #infoContainer,#academy #infoContainer,#buildings #infoContainer,#message_box #infoContainer,#messages #infoContainer,#field #infoContainer,#armies #infoContainer,#search #infoContainer,#productivity #infoContainer,#options #infoContainer,#statistics #infoContainer,#tutorial #infoContainer,#friends #infoContainer{padding:5px 5px 0 5px;text-align:center}
+#workshop #infoContainer td#header,#armory #infoContainer td#header,#academy #infoContainer td#header,#buildings #infoContainer td#header,#messages #infoContainer td#header,#field #infoContainer td#header,#empire #infoContainer td#header,#market #infoContainer td#header{border:1px solid #000;background-color:#990f1f;height:25px;padding-left:3px}
+#workshop #infoContainer img,#armory #infoContainer img,#academy #infoContainer img,#buildings #infoContainer img,#armies #infoContainer img,#empire #castle img,#empire #watchtowerContainer #watchtower img,#productivity #infoContainer img,#market #infoContainer img{border:1px solid #000}
+#attack #infoContainer td input, button,#options #infoContainer td input{height:20px}
+#attack #infoContainer td#header, td#footer,#messages #infoContainer td#footer,#search #infoContainer td#header,#options #infoContainer td#footer,#statistics #infoContainer td#header,#friends #infoContainer td#header{border:1px solid #000;text-align:center;background-color:#990f1f;height:25px}
+#section #messages #infoContainer td#footer input,#field #infoContainer td#header input{width:21px; height:21px;font-size:11px;color:#848484;background-color:#0d1014;border:1px solid #848484}
+#section #messages .row{background:#000}
+#section #messages #infoContainer span.noread{font-weight:bold}
+#section #field #infoContainer .col{width:168px}
+#section #field #infoContainer td#headerCol{border:1px solid #000;background-color:#990f1f;width:100px;height:10px}
+#section #armies #infoContainer td#header{border:1px solid #000;background-color:#990f1f}
+#section #armies #infoContainer tr#current{background-color:#9acd32;color:#000}
+#section #armies #infoContainer td#current{border:1px solid #000}
+#section #empire #subtitle{color:#e5e5e5;font-size:12px;height:20px}
+#section #empire #subtitle a{color:#e5e5e5}
+#section #empire #infoContainer{padding:5px 0 0 0;height:210px}
+#section #empire #castle,#empire #watchtowerContainer #watchtower{padding:0 5px 0 5px}
+#section #empire #watchtowerContainer{padding:5px 0 0 0;height:130px;text-align:left}
+#section #productivity #infoContainer td#header{border:1px solid #000;text-align:left;background-color:#990f1f}
+#section #productivity #infoContainer tr#current{background-color:#9acd32;color:#000}
+#section #productivity #infoContainer td#current{border:1px solid #000}
+#section #friends #infoContainer #conditions{text-align:left}
+#section #friends #infoContainer #conditions ul{list-style-type:disc;list-style-position:inside}
+#section #tutorial #infoContainer #steps ul li{display:inline-block;list-style-type:none;list-style-position:outside;width:15px}
+#section #tutorial #infoContainer #steps ul li{-moz-border-radius:50px;border-radius:50px;background-color:#990f1f;color:#FFFFFF;font-weight:bold;padding:10px;text-decoration:none;border:1px solid #000}
+#section #tutorial #infoContainer #steps ul li:hover{background-color:#9b3f4a;border-color:#fff;cursor:pointer}
+#section #tutorial #infoContainer #instructions{text-align:justify}
+#section #tutorial #infoContainer #instructions ul li{list-style-type:disc;list-style-position:inside;height:40px}

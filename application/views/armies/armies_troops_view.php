@@ -1,0 +1,1 @@
+<table><tr><td id="header" colspan="2" style="color:#fff;font-weight:bold;padding-left:3px"><?php echo $this->lang->line ( 'am_troops' ); ?></td></tr><?php echo $troops_rows; ?></table>

@@ -1,0 +1,1 @@
+<tr><td id="textLeft"><?php echo $soldier; ?></td><td><?php echo $amount; ?></td></tr>

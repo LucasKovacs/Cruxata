@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<cruxata>
+	<elements>
+		<armory_boot>
+			<price data="1500"/>
+			<price_factor data="5"/>
+			<time data="300"/>
+			<power data="10"/>
+			<type data="defensive"/>
+		</armory_boot>
+		<armory_gauntlet>
+			<price data="1500"/>
+			<price_factor data="5"/>
+			<time data="300"/>
+			<power data="10"/>
+			<type data="defensive"/>
+		</armory_gauntlet>
+		<armory_helmet>
+			<price data="7500"/>
+			<price_factor data="5"/>
+			<time data="2700"/>
+			<power data="10"/>
+			<type data="defensive"/>
+		</armory_helmet>
+		<armory_shield>
+			<price data="7500"/>
+			<price_factor data="5"/>
+			<time data="2700"/>
+			<power data="10"/>
+			<type data="defensive"/>
+		</armory_shield>
+		<armory_breastplate>
+			<price data="9500"/>
+			<price_factor data="5"/>
+			<time data="3300"/>
+			<power data="10"/>
+			<type data="defensive"/>
+		</armory_breastplate>
+		<armory_hammer>
+			<price data="750"/>
+			<price_factor data="6"/>
+			<time data="300"/>
+			<power data="10"/>
+			<type data="offensive"/>
+		</armory_hammer>
+		<armory_spear>
+			<price data="2500"/>
+			<price_factor data="5"/>
+			<time data="900"/>
+			<power data="10"/>
+			<type data="offensive"/>
+		</armory_spear>
+		<armory_ax>
+			<price data="7500"/>
+			<price_factor data="4"/>
+			<time data="1200"/>
+			<power data="10"/>
+			<type data="offensive"/>
+		</armory_ax>
+			<armory_sword>
+			<price data="25000"/>
+			<price_factor data="3"/>
+			<time data="1800"/>
+			<power data="10"/>
+			<type data="offensive"/>
+		</armory_sword>
+		<armory_crossbow>
+			<price data="87500"/>
+			<price_factor data="2"/>
+			<time data="2700"/>
+			<power data="10"/>
+			<type data="offensive"/>
+		</armory_crossbow>
+
+		<building_academy>
+			<gold data="600"/>
+			<stone data="4500"/>
+			<wood data="6000"/>
+			<time data="450"/>
+			<type data="infrastructure"/>
+		</building_academy>
+		<building_armory>
+			<gold data="150"/>
+			<stone data="1125"/>
+			<wood data="1500"/>
+			<time data="7200"/>
+			<type data="infrastructure"/>
+		</building_armory>
+		<building_barracks>
+			<gold data="7"/>
+			<stone data="56"/>
+			<wood data="75"/>
+			<time data="75"/>
+			<limit data="10"/>
+			<type data="infrastructure"/>
+		</building_barracks>
+		<building_fortified_wall>
+			<gold data="0"/>
+			<stone data="10000"/>
+			<wood data="7500"/>
+			<time data="1800"/>
+			<type data="infrastructure"/>
+		</building_fortified_wall>
+		<building_goldmine>
+			<gold data="0"/>
+			<stone data="75"/>
+			<wood data="225"/>
+			<time data="126"/>
+			<production data="24"/>
+			<type data="production"/>
+		</building_goldmine>
+		<building_market>
+			<gold data="0"/>
+			<stone data="10000"/>
+			<wood data="20000"/>
+			<time data="1800"/>
+			<type data="infrastructure"/>
+		</building_market>
+		<building_sawmill>
+			<gold data="0"/>
+			<stone data="15"/>
+			<wood data="60"/>
+			<time data="54"/>
+			<production data="66"/>
+			<type data="production"/>
+		</building_sawmill>
+		<building_stonemine>
+			<gold data="0"/>
+			<stone data="24"/>
+			<wood data="48"/>
+			<time data="51"/>
+			<production data="44"/>
+			<type data="production"/>
+		</building_stonemine>
+		<building_watchtower>
+			<gold data="0"/>
+			<stone data="250"/>
+			<wood data="750"/>
+			<time data="450"/>
+			<type data="infrastructure"/>
+		</building_watchtower>
+		<building_workshop>
+			<gold data="2000"/>
+			<stone data="15000"/>
+			<wood data="20000"/>
+			<time data="18000"/>
+			<type data="infrastructure"/>
+		</building_workshop>
+
+		<academy_warrior>
+			<price data="45"/>
+			<time data="300"/>
+			<life data="20"/>
+			<attack data="2"/>
+			<resistance data="10"/>
+			<weapon data="armory_hammer"/>
+			<level data="1"/>
+		</academy_warrior>
+		<academy_spearman>
+			<price data="125"/>
+			<time data="1500"/>
+			<life data="30"/>
+			<attack data="4"/>
+			<resistance data="8"/>
+			<weapon data="armory_spear"/>
+			<level data="4"/>
+		</academy_spearman>
+		<academy_infantryman>
+			<price data="215"/>
+			<time data="3300"/>
+			<life data="35"/>
+			<attack data="8"/>
+			<resistance data="10"/>
+			<weapon data="armory_ax"/>
+			<level data="9"/>
+		</academy_infantryman>
+		<academy_swordsman>
+			<price data="375"/>
+			<time data="4500"/>
+			<life data="50"/>
+			<attack data="16"/>
+			<resistance data="10"/>
+			<weapon data="armory_sword"/>
+			<level data="16"/>
+		</academy_swordsman>
+		<academy_crossbowman>
+			<price data="500"/>
+			<time data="9000"/>
+			<life data="10"/>
+			<attack data="32"/>
+			<resistance data="8"/>
+			<weapon data="armory_crossbow"/>
+			<level data="25"/>
+		</academy_crossbowman>
+
+		<workshop_ram>
+			<wood data="160"/>
+			<gold data="75"/>
+			<time data="3600"/>
+		</workshop_ram>
+		<workshop_catapult>
+			<wood data="160"/>
+			<gold data="135"/>
+			<time data="3600"/>
+		</workshop_catapult>
+		<workshop_tower>
+			<wood data="300"/>
+			<gold data="135"/>
+			<time data="10800"/>
+		</workshop_tower>
+		<workshop_trebuchet>
+			<wood data="200"/>
+			<gold data="200"/>
+			<time data="9000"/>
+		</workshop_trebuchet>
+	</elements>
+</cruxata>

@@ -1,0 +1,38 @@
+html{font-family:"Trebuchet MS", Arial, Helvetica;font-size:12px;}
+body{background-color:#000033;margin:0px;background-image:url(../img/general/game_pattern.gif);background-repeat:repeat;/*background-attachment:fixed;background-repeat:no-repeat;background-position:top right;*/}
+body.style{background-image:none;}
+body.style table{margin:0px;}
+form{margin:0px;padding:0px;}
+table#borders tr td{font-size:12px;border:1px solid #000000;}
+table#borders tr th{font-size:12px;border:1px solid #000000;}
+table#message tr td{font-size:12px;border:3px solid #FF0000;color:white;}
+td.header, th.header, tr.header, table.header{border:0px;}
+input, select, button{border:1px #545454 solid;font-size:12px;}
+a{color:#000000;text-decoration:none;}
+a:link{color:#000000;text-decoration:none;}
+a:visited{color:#000000;text-decoration:none;}
+a:active{color:#000000;text-decoration:none;}
+a:hover{color:#000000;text-decoration:underline;}
+.footer-navbar{left:0px;font-size:10px;position:fixed;bottom:0px;background-image:url(../img/general/general_tb_bg.gif);width:100%;border-top:1px solid #000000;}
+.red-message{border: 2px solid red;text-align:center;}
+.lime-message{border: 2px solid lime;text-align:center;}
+.body{text-align:center;font-size:12px;margin-top:9px;background-image:url(../img/general/general_pattern.gif);background-repeat:repeat;}
+.blur{background-color:#434040;color:inherit;margin-left:4px;margin-top:-6px;width:802px;}
+.shadow,.content{position:relative;bottom:3px;right:3px;width:800px;}
+.content{background-color:#ffffff;color:#000000;border:1px solid #000;margin:0px 0px 0px 0px;}
+.special{font-size:12px;border:1px solid #000000;background-color:#EEEEEE;}
+.ingreso{font-size:12px;border:1px solid #999;background-color:#EEEEEE;}
+.homemenu{text-align:center;font-size:12px;background-color:#6d808c;height:10px;}
+.tyctext{font-size:10px;font-style:normal;}
+.header{font-size:12px;font-style:normal;}
+.select{border:1px #545454 solid;font-size:10px;height:20px;}
+.borders{font-size:12px;border:1px solid #000000;}
+.inner-table{font-size:12px;}
+.academy-inputs{border:1px #545454 solid;font-size:10px;height:19px;}
+#menu {width:150px;position:fixed;top:0px;padding:0;margin:0;left:0px;position:expression("absolute");}
+#cursorMessageDiv{position:absolute;z-index:99999;border:solid 1px #CCC;background:#EEE;padding:2px;margin:0px;display:none;}
+#content{position:absolute;left:190px;width:80%;height:100%;}
+#header_top{height:66px;position:absolute;left:190px;scrollbars:none;overflow:visible;width:80%;}
+#head{width:80%;position:absolute;left:200px;}
+#errorbox{position:absolute;left:190px;top:80px;border:3px solid #FF0000;display:none;width:78%;margin:3px 0px;padding:4px 3px;}
+#messagebox {position:absolute;left:190px;top:80px;border:1px solid #00FF00;display:none;width:78%;margin:3px 0px;padding:4px 3px;}
