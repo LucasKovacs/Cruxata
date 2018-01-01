@@ -2,7 +2,7 @@ Welcome to Cruxata!
 ===================
 
 
-Hey! **Cruxata** used to be an Online Web Game that run from 2008 to 2010 (aprox), developed with **PHP** and used [Codeigniter](http://codeigniter.com) as base framework. This was a personal project that I had online for a few years and discontinued due to lack of time.
+Hey! **Cruxata** used to be an Online Web Game that run from 2008 to 2010 (approximately), developed with **PHP** and used [Codeigniter](http://codeigniter.com) as base framework. This was a personal project that I had online for a few years and discontinued due to lack of time.
 
 After several years, I finally decided to **share the code**, and put it online so anyone can take a look at it. This was my first big personal project, and lead my grow as a developer... so you can expect anything from the code.
 
