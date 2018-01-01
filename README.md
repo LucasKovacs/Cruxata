@@ -10,7 +10,7 @@ You're free to use all the code and images. The images were made by a Graphic De
 
 Please feel free to clone the repository. If you know me, or have followed my work for some time now, you'll know that this isn't my first web based game. I also lead a **[community focused on an OGame clon](http://www.xgproyect.org/)**, when I've time.
 
-**Important:** since it's being along time, and I don't intent to put time and effort in Cruxata's code anymore, I won't be providing any support. Anyone with basic programming skills should be able to put this code to work in no time. Also the DB file is attached here.
+**Important:** because it's being along time, and I don't intent to put time and effort in Cruxata's code anymore, I won't be providing any support. Anyone with basic programming skills should be able to put this code to work in no time. Also the DB file is attached here.
 
 As a side note about the DB, it contains **production data**, email addresses were replaced by a dummy, and all passwords were reset to 12345 (sha-1).
 
